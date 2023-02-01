@@ -1,7 +1,7 @@
 {
   "name": "renovate-config-alexz",
   "version": "0.0.0",
-  "description": "Renovate Bot config for unjs repositories",
+  "description": "Renovate Bot config for alexzhang1030 repositories",
   "license": "MIT",
   "repository": "alexzhang-dev/renovate-config",
   "scripts": {
