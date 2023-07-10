@@ -4,36 +4,21 @@
     "config:base",
     "schedule:weekly",
     "group:allNonMajor",
-    ":semanticCommitTypeAll(chore)"
+    ":disableDependencyDashboard"
   ],
-  "meteor": {
-    "enabled": false
-  },
   "labels": [
     "dependencies"
   ],
-  "rangeStrategy": "bump",
-  "npm": {
-    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  "pin": {
+    "enabled": false
   },
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "depTypeList": [
         "peerDependencies"
       ],
       "enabled": false
-    },
-    {
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "matchPackageNames": [
-        "vue"
-      ],
-      "enabled": false
     }
-  ],
-  "ignoreDeps": [
-    "node"
   ]
 }
