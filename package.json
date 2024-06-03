@@ -13,7 +13,7 @@
     "default.json"
   ],
   "devDependencies": {
-    "renovate": "^34.118.2",
-    "taze": "^0.8.5"
+    "renovate": "^37.385.0",
+    "taze": "^0.13.8"
   }
 }
