@@ -20,5 +20,8 @@
       ],
       "enabled": false
     }
+  ],
+  "postUpdateOptions": [
+    "pnpmDedupe"
   ]
 }
