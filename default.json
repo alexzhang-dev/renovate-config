@@ -23,5 +23,6 @@
   ],
   "postUpdateOptions": [
     "pnpmDedupe"
-  ]
+  ],
+  "automerge": true
 }
